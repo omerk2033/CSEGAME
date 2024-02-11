@@ -15,7 +15,7 @@ const connectToDatabase = async () => {
         }
 
         application.listen(port, ()=> {
-            console.log("Server running on PORT!!!: " + port);
+            console.log("Server running: " + port);
         });
     } catch (error){
         console.log("error in connecting to database...")
